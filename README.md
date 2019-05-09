@@ -15,5 +15,5 @@ Phantom소프트웨어에서 구현된 기능과 그 사용법에 관련된 설�
 
 - [분석영상선택하기](#첫화면home)  
 
-1. 첫화면(home)  
+1. 
 ![home.jpg](./image/home.jpg)
