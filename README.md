@@ -122,9 +122,10 @@ Phantom소프트웨어에서 구현된 기능과 그 사용법에 관련된 설�
    MTF 수치 중에서 중요도가 높은 Mtf50, Mtf20, Mtf10 값은 선택하여 확인할 수 있습니다.  
 ```
 ![mtf2.jpg](./image/mtf2.jpg)  
+MTF그래프 이외에도, ESF(Edeg spread function) 및 LSF(Line spread function) 그래프를 선택할 수 있습니다.  
 ```
-   MTF그래프 이외에도, ESF(Edeg spread function) 및 LSF(Line spread function) 그래프를 선택할 수 있습니다.
-   MTF가 계산되고 있는 볼 영역을 확대해 볼 수 있습니다. 원본 영상 위의 확대 영역을 설정하면, 원본영상 확대영역에서 확대된 영상을 확인할 수 있습니다.
+   MTF가 계산되고 있는 볼 영역을 확대해 볼 수 있습니다.   
+   원본 영상 위의 확대 영역을 설정하면, 원본영상 확대영역에서 확대된 영상을 확인할 수 있습니다.
 ```
 
 -------
@@ -151,13 +152,13 @@ Phantom소프트웨어에서 구현된 기능과 그 사용법에 관련된 설�
 5. ## Image_gain_velocity  
 -------
 
-![image_gain_velocity.jpg](./image/image_gain_velocity)  
+![image_gain_velocity.jpg](./image/image_gain_velocity.jpg)  
 촬영 영상 가운데 열의 볼 간 간격은 볼 팬텀이 촬영되는 속도를 유추할 수 있는 정보를 제공합니다. 
 볼 간격은 일관된 해석을 위해서 인접한 볼 사이의 픽셀 수를 의미합니다.  
 
 -------
 기타유의사항
 -------
-    - 저장  
+저장  
     Phantom 소프트웨어의 분석기능을 사용하면서, 해당 기능의 분석결과를 저장할 수 있습니다.  
     저장결과는 바탕화면에 해당날짜 명의 폴더 안에 저장됩니다.  
