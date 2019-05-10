@@ -129,7 +129,7 @@ MTF그래프 이외에도, ESF(Edeg spread function) 및 LSF(Line spread functio
 ```
 
 -------
-5. ##Central_Ray
+5. ## Central_Ray
 -------
 촬영 영상의 가장 윗쪽 볼들에서 수직선을 내려 긋는 방식으로, 볼 팬텀의 각 위치에서의 x-ray 방향을 파악할 수 있습니다.  
 ![central_ray1.jpg](./image/central_ray1.jpg)  
