@@ -151,13 +151,13 @@ Phantom소프트웨어에서 구현된 기능과 그 사용법에 관련된 설�
 5. ## Image_gain_velocity  
 -------
 
-![image_gain_velocity.jpg](./imaga/image_gain_velocity)  
+![image_gain_velocity.jpg](./image/image_gain_velocity)  
 촬영 영상 가운데 열의 볼 간 간격은 볼 팬텀이 촬영되는 속도를 유추할 수 있는 정보를 제공합니다. 
 볼 간격은 일관된 해석을 위해서 인접한 볼 사이의 픽셀 수를 의미합니다.  
 
 -------
-##기타유의사항
+기타유의사항
 -------
-    - ## 저장  
+    - 저장  
     Phantom 소프트웨어의 분석기능을 사용하면서, 해당 기능의 분석결과를 저장할 수 있습니다.  
     저장결과는 바탕화면에 해당날짜 명의 폴더 안에 저장됩니다.  
