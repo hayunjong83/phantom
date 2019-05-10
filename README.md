@@ -162,3 +162,7 @@ MTF그래프 이외에도, ESF(Edeg spread function) 및 LSF(Line spread functio
 ## 저장  
     Phantom 소프트웨어의 분석기능을 사용하면서, 해당 기능의 분석결과를 저장할 수 있습니다.  
     저장결과는 바탕화면에 해당날짜 명의 폴더 안에 저장됩니다.  
+
+![save.jpg](./image/save.jgp)  
+![imageLayerSave.jpg](./image/imageLayerSave.jpg)  
+![saveresult.jpg](./image/saveresult.jpg)  
