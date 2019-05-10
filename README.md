@@ -116,11 +116,48 @@ Phantom소프트웨어에서 구현된 기능과 그 사용법에 관련된 설�
 4. ## MTF
 -------
 촬영된 영상의 해상도 정보를 제공하는 기능입니다. 팬텀의 주요 부분에 위치한 4개의 볼과 사용자가 직접 선택한 볼에 대해서 해상도를 나타내는 MTF를 구합니다.  
-![mtf1.jpg](./image/mtf1.jgp)
+![mtf1.jpg](./image/mtf1.jpg)
 ```
    MTF 값을 계산하는데 중요한 요인인 픽셀 크기(pxel size)를 영상 설정에 맞게 수정할 수 있습니다.  
    MTF 수치 중에서 중요도가 높은 Mtf50, Mtf20, Mtf10 값은 선택하여 확인할 수 있습니다.  
 ```
-![mtf2.jpg](./image/mtf2.jpg)
+![mtf2.jpg](./image/mtf2.jpg)  
+```
+   MTF그래프 이외에도, ESF(Edeg spread function) 및 LSF(Line spread function) 그래프를 선택할 수 있습니다.
+   MTF가 계산되고 있는 볼 영역을 확대해 볼 수 있습니다. 원본 영상 위의 확대 영역을 설정하면, 원본영상 확대영역에서 확대된 영상을 확인할 수 있습니다.
+```
 
+-------
+5. ##Central_Ray
+-------
+촬영 영상의 가장 윗쪽 볼들에서 수직선을 내려 긋는 방식으로, 볼 팬텀의 각 위치에서의 x-ray 방향을 파악할 수 있습니다.  
+![central_ray1.jpg](./image/central_ray1.jpg)  
 
+분석영상의 촬영방향을 이해하는 데 도움을 줄 수 있는, 다양한 표현방식을 제공합니다.  
+```
+   Central Ray(short) : x-ray 수직선을 악골도면의 맨 윗 열에서 가장 아랫 열까지 그려줍니다.  
+   Central Ray(long)  : x-ray 수직선을 악골도면의 맨 윗 열로부터 다른 수직선과 만나도록 연장하여 그려줍니다.  
+   Rotational Center  : 이웃한 central ray 수직선들의 교점을 통해, rotational center를 구해줍니다.  
+   상단부 볼 표현  : 인식된 볼들 중에서 central ray 수직선의 출발점이 될 수 있는 맨 윗 열 볼들을 그려줍니다.  
+   하단부 볼 표현  : central ray 수직선이 지나가는 가장 아랫 열의 볼들을 그려줍니다.
+```
+
+![central_ray2.jpg](./image/central_ray2.jpg)  
+원본 영상에도 central ray, 상단부 볼 표현, 하단부 볼 표현 기능을 제공합니다.  
+
+![central_ray3.jpg](./image/central_ray3.jpg)  
+  
+-------
+5. ## Image_gain_velocity  
+-------
+
+![image_gain_velocity.jpg](./imaga/image_gain_velocity)  
+촬영 영상 가운데 열의 볼 간 간격은 볼 팬텀이 촬영되는 속도를 유추할 수 있는 정보를 제공합니다. 
+볼 간격은 일관된 해석을 위해서 인접한 볼 사이의 픽셀 수를 의미합니다.  
+
+-------
+##기타유의사항
+-------
+    - ## 저장  
+    Phantom 소프트웨어의 분석기능을 사용하면서, 해당 기능의 분석결과를 저장할 수 있습니다.  
+    저장결과는 바탕화면에 해당날짜 명의 폴더 안에 저장됩니다.  
