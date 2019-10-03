@@ -65,7 +65,7 @@ Phantom소프트웨어에서 구현된 기능과 그 사용법에 관련된 설�
 2. ## 결과(Result)  
 -------
   - ### 매칭정보  
-  ![matching_confirm1.jpg](./image/matching_confirm1.jpg)  
+  ![matching_confirm1-1.jpg](./image/matching_confirm1-1.jpg)  
   분석이 완료되면, 전체적인 분석결과를 종합해서 보여줍니다. 하지만 그 전에 분석영상과 도면 간의 잘못된 매칭영역이 있는 지를 우선 표현합니다. **원본영상 보기 모드**의 선택을 통해 다양한 방식의 매칭정보를 확인할 수 있습니다.  
   ```
       - 인식된 모든 볼 보기  : 매칭이 완료된 볼과 그렇지 않은 볼을 함께 보여줍니다.
@@ -74,10 +74,10 @@ Phantom소프트웨어에서 구현된 기능과 그 사용법에 관련된 설�
       - 볼 선택 모드 : 사용자가 직접 선택하여서, 분석영상과 도면과의 매칭 정보를 볼/가로 행/세로 열에 대해 확인합니다. 
   ```
     
-  ![matching_confirm2.jpg](./image/matching_confirm2.jpg)  
+  ![matching_confirm2-1.jpg](./image/matching_confirm2-1.jpg)  
     
    **세로 열 매칭 보기**모드  
-  ![matching_confirm3.jpg](./image/matching_confirm3.jpg)  
+  ![matching_confirm3-1.jpg](./image/matching_confirm3-1.jpg)  
     
   **볼 선택 모드**  
   원본 분석 영상을 직접 클릭하여, 매칭정보를 확인하고 싶은 볼을 선택할 수 있습니다.  
