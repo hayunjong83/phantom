@@ -57,14 +57,14 @@ Phantom소프트웨어에서 구현된 기능과 그 사용법에 관련된 설�
 
 **1-2. Multi Slice 영상의 선택**  
 멀티 슬라이스 분석은 서로 다른 초점 영역(focal layer)을 갖는 연속적인 분석영상들이 담긴 폴더를 한 번에 분석해주는 기능입니다.
-![multi_select1.jpg](/image/multi_select1.JPG)
-![multi_select2.jpg](/image/multi_select2.JPG)
+![multi_select1.jpg](/image/multi_select1.jpg)
+![multi_select2.jpg](/image/multi_select2.jpg)
 멀티 슬라이스 분석을 위해서는 멀티 슬라이스 영상이 담긴 **폴더**의 경로를 선택하여야합니다
 ```
    멀티 슬라이스 합성영상에 대해서 분석 영역을 지정합니다. 
    이 때 지정된 분석 영역에 맞춰 나머지 모든 영상의 영역을 지정하고 분석을 시작합니다.
 ```
-![multi_select3.jpg](/image/multi_select3.JPG)
+![multi_select3.jpg](/image/multi_select3.jpg)
 
 멀티 슬라이스 분석에는 컴퓨터 사양에 따라 어느 정도 시간이 소요되며, 모든 멀티 슬라이스 영상마다 **포컬 레이어**와 **장단축 비율 영역**을 확인할 수 있습니다.
 ```
