@@ -177,9 +177,9 @@ MTF그래프 이외에도, ESF(Edeg spread function) 및 LSF(Line spread functio
  ![modify_matching_1.jpg](./image/modify_matching_1.jpg)
  ![modify_matching_2.jpg](./image/modify_matching_2.jpg)
  단일 볼 매칭에서는 원본영상과 악골도면에서 대응되는 볼을 각각 선택한 후, 상단의 매칭 정보 저장을 누르면 됩니다.
- ![modify_matching_3.jpg](./image/modify_matching_3.jpg)
+ ![modify_matching_4.jpg](./image/modify_matching_4.jpg)
  다중 볼 매칭에서는 같은 방식으로 대응되는 볼 집합을 순서대로 선택해준 후, 상단의 매칭 정보 저장을 누르면 됩니다.
  선택된 볼 집합은 Y좌표 순으로 재 정렬되어 저장되며, 도면에서 잘못 선택한 볼의 경우 마우스 오른쪽 버튼으로 취소가능합니다.
- ![modify_matching_4.jpg](./image/modify_matching_4.jpg)
+ ![modify_matching_3.jpg](./image/modify_matching_3.jpg)
  자유 선택모드는 원본영상에서는 자유 선을 그어 가장 가까운 볼들을 선택합니다. 이 때 도면에서는 매칭할 볼들을 어떠한 방식으로도 선택 가능하며, 두 볼의 개수가 다를 경우, 대응되는 개수만큼만 매칭정보를 저장합니다.
  
