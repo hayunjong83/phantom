@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="newPhantom.exe" size="454656">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="newPhantom.exe" size="456192">
       <assemblyIdentity name="newPhantom" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>V7DemzSfrkOaUlCaJkSKzbeEdnhQO6HCIEsl/9gUIaA=</dsig:DigestValue>
+        <dsig:DigestValue>4UNE/9Nn2ImDJz/sO1T+3AP4koDLkv0lalTwW3qN6cc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
